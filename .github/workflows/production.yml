@@ -21,4 +21,4 @@ jobs:
 
       # Trigger Netlify build
       - name: Trigger Netlify build
-        run: curl -X POST -d {} "https://api.netlify.com/build_hooks/your_production_build_hook_id"
+        run: curl -X POST -d {} "https://main--gleeful-bubblegum-e33084.netlify.app/"
