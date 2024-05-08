@@ -21,4 +21,4 @@ jobs:
 
       # Trigger Netlify build
       - name: Trigger Netlify build
-        run: curl -X POST -d {} "https://dev--dev-netlify-pipeline.netlify.app/"
+        run: curl -X POST -d {} "https://dev--dev-netlify-pipeline.netlify.app"
