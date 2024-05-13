@@ -37,7 +37,7 @@ export default function TextBox() {
           return text.length !== 0
         }).length} Words and {text.length} Characters</p>
         <h2>Preview</h2>
-        <p>{text.length===0?'Enter Text to Preview':text}</p>
+        <p>{text.length===0?'ENTER':text}</p>
     </div>
     </>
   )
