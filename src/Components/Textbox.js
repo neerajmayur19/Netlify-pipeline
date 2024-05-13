@@ -23,7 +23,7 @@ export default function TextBox() {
   return (
     <>
     <div className = "container">
-    <h2>Enter your Text Here</h2>
+    <h2>Enter</h2>
     <div class="mb-3">
         <textarea className ="form-control" value = {text} onChange = {onchange} id="exampleFormControlTextarea1" rows="8"></textarea>
     </div>
